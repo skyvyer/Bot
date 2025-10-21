@@ -6,7 +6,7 @@ import telebot
 from telebot import types
 from apscheduler.schedulers.background import BackgroundScheduler
 
-TOKEN = os.getenv("TELEGRAM_TOKEN", "8263627222:AAHLBCBWesQBLq0iTPMjPVY1Oc5YVss5_dg")
+TOKEN = os.getenv("TELEGRAM_TOKEN",)
 DB = "tasks.db"
 
 bot = telebot.TeleBot(TOKEN)
